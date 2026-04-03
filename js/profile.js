@@ -163,6 +163,7 @@ function showSaveMessage(message = 'Profile saved successfully!') {
     messageEl.textContent = message;
     messageEl.classList.add('show');
     
+    console.log("asd")
     // Hide after 3 seconds
     setTimeout(() => {
         messageEl.classList.remove('show');
